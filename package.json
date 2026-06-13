@@ -1,0 +1,32 @@
+{
+  "name": "dv-sports",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "export:web": "expo export --platform web --output-dir dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.5",
+    "@expo/vector-icons": "^14.1.0",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-font": "~13.3.2",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-svg": "15.11.2",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  }
+}
