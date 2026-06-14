@@ -1,5 +1,4 @@
 import type { BettingPick } from "./worldCup";
-
 export const dvPicks: Record<string, BettingPick> = {
   "10": {
     fixtureId: "10",
@@ -24,5 +23,13 @@ export const dvPicks: Record<string, BettingPick> = {
     odds: "TBD",
     confidence: "Play",
     note: "Brazil tempo plus Morocco transition threat makes this the first look."
+  },
+  "11": {
+    fixtureId: "11",
+    market: "Match Result",
+    selection: "Japan Draw No Bet",
+    odds: "2.55",
+    confidence: "Play",
+    note: "Japan unbeaten in 7, 5 straight clean sheets. Netherlands in poor form losing to Algeria."
   }
 };
