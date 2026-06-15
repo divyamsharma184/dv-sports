@@ -16,6 +16,14 @@ export const dvPicks: Record<string, BettingPick> = {
     confidence: "Lean",
     note: "Waiting for final lineups before locking the card."
   },
+  "14": {
+    fixtureId: "14",
+    market: "Asian Handicap",
+    selection: "Spain -2.5",
+    odds: "TBD",
+    confidence: "Play",
+    note: "Spain unbeaten in 30, last WC opener was 7-0. Cape Verde making their WC debut. Yamal and Nico Williams injury-managed but Torres, Pedri and Rodri alone are enough to win big."
+  },
   "7": {
     fixtureId: "7",
     market: "Total Goals",
