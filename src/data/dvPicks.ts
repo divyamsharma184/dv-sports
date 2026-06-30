@@ -1,5 +1,37 @@
 import type { BettingPick } from "./worldCup";
 export const dvPicks: Record<string, BettingPick> = {
+  "79": {
+    fixtureId: "79",
+    market: "Match Result",
+    selection: "Ecuador Draw No Bet",
+    odds: "TBD",
+    confidence: "Play",
+    note: "Mexico unbeaten and zero goals conceded all tournament, but Ecuador are masters of the draw with 12 draws in their last 22 matches and only 1 loss in nearly 2 years. Ecuador play home games at 9350ft in Quito so Mexico City altitude is neutralized. They beat Germany by sitting off and pressing - same blueprint works here."
+  },
+  "82": {
+    fixtureId: "82",
+    market: "Match Result",
+    selection: "Senegal Draw No Bet",
+    odds: "TBD",
+    confidence: "Play",
+    note: "Senegal have more attacking dynamism than Belgium right now, only Netherlands Germany and France scored more in the group stage. Ismaila Sarr is in red hot form and Belgium's left side De Cuyper and Mechele have been exposed all tournament. Belgium look on the wane."
+  },
+  "85": {
+    fixtureId: "85",
+    market: "Match Result",
+    selection: "Draw",
+    odds: "+220",
+    confidence: "Play",
+    note: "Switzerland favoured but tend to win narrow rather than blow teams away. Algeria have more natural flair and attacking quality than Switzerland, showed they can go toe to toe with mid-weight European sides in a 3-3 draw with Austria. Mahrez and Amoura can punish a high line."
+  },
+  "87": {
+    fixtureId: "87",
+    market: "Match Result",
+    selection: "Ghana Draw No Bet",
+    odds: "TBD",
+    confidence: "Lean",
+    note: "Ghana were at their best against England defending aggressively and hitting on the counter, same approach suits them well against Colombia's pace up top. Colombia can be got at on the counter."
+  },
   "21": {
     fixtureId: "21",
     market: "Asian Handicap",
